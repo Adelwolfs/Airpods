@@ -1,0 +1,166 @@
+@media(max-width:858px){
+    .airpots1{
+        flex-wrap: wrap;
+        height: 500px;
+        width: 550px;
+        padding: 0;
+    }
+    .airpots1__text{
+        height: 200px;
+        text-align: justify;
+        width: 550px;
+    }
+    .airpots__img{
+        width: 550px;
+        height: 300px;
+        order: -1;
+    }
+    .airpots2__text{
+        text-align: justify;
+        height: 200px;
+        width: 450px;
+    }
+    .airpots2{
+        height: 573px;
+        flex-wrap: wrap;
+        width: 450px;
+        padding: 0;
+    }
+    .airpots2__img{
+        height: 400px;
+        width: 450px;
+    }
+    .airpots3{
+        flex-direction: column;
+        width: 350px;
+        row-gap: 20px;
+        padding: 0;
+    }
+    .airpots3__img{
+        order: -1;
+        width: 350px;
+        height: 450px;
+    }
+    .airpots3__text1{
+        width: 350px;
+        text-align: justify;
+    }
+    .airpots3__text2{
+        width: 350px;
+        text-align: justify;
+    }
+}
+@media(max-width:770px){
+    .iphone{
+        flex-wrap: wrap;
+        width: 540px;
+        padding: 0;
+        row-gap: 30px;
+    }
+}
+@media(max-width:665px){
+    .header__title{
+        width: 350px;
+        font-size: 50px;
+    }
+    .airpots1{
+        flex-wrap: wrap;
+        height: 500px;
+        width: 450px;
+    }
+    .airpots1__text{
+        height: 200px;
+        text-align: justify;
+        width: 450px;
+    }
+    .airpots__img{
+        width: 450px;
+        height: 300px;
+    }
+    .footer{
+        padding: 20px;
+    }
+}
+@media(max-width:550px){
+    .iphone{
+        column-gap: 0px;
+        flex-direction: column;
+        width: 255px;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .footer__footer{
+        flex-wrap: wrap;
+        column-gap: 10px;
+        width: 320px;
+        padding: 0;
+        justify-content: center;
+        row-gap: 15px;
+    }
+}
+@media(max-width:500px){
+    .airpots1{
+        flex-wrap: wrap;
+        height: 500px;
+        width: 320px;
+    }
+    .airpots1__text{
+        height: fit-content;
+        text-align: justify;
+        width: 320px;
+        font-size: 20px;
+    }
+    .airpots__img{
+        width: 320px;
+        height: 200px;
+    }
+    .airpots2__text{
+        text-align: justify;
+        height: fit-content;
+        width: 320px;
+    }
+    .airpots2{
+        height: fit-content;
+        flex-wrap: wrap;
+        width: 320px;
+        padding: 0;
+    }
+    .airpots2__img{
+        height: 250px;
+        width: 320px;
+    }
+    .airpots3{
+        flex-direction: column;
+        width: 320px;
+        row-gap: 20px;
+        padding: 0;
+    }
+    .airpots3__img{
+        order: -1;
+        width: 320px;
+        height: 400px;
+    }
+    .airpots3__text1{
+        width: 320px;
+        text-align: justify;
+    }
+    .airpots3__text2{
+        width: 320px;
+        text-align: justify;
+    }
+}
+@media(max-width:450px){
+    .header__nav>.container{
+        flex-wrap: wrap;
+        column-gap: 10px;
+        width: 300px;
+        padding: 10;
+        justify-content: center;
+        row-gap: 15px;
+    }
+    .header__title{
+        width: 320px;
+        font-size: 48px;
+    }
+}

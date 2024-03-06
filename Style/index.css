@@ -1,0 +1,183 @@
+@import './fonts.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: ProstoOne;
+}
+.container {
+    padding: 0 15px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav {
+    background: #282828;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.list {
+    display: flex;
+    column-gap: 30px;
+}
+.link {
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+.link:hover{
+    border-bottom: solid white 3px;
+    border-radius: 4px;
+}
+.header__search {
+    display: flex;
+    column-gap: 25px;
+}
+.link__search:hover{
+    border-bottom: white 3px solid;
+    border-radius: 4px;
+}
+.header__content {
+    background: url(../Images/Header__bg.jpg) no-repeat center / cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 38px;
+}
+.header__title {
+    color: white;
+    font-size: 100px;
+    font-weight: 400;
+}
+.header__link {
+    color: black;
+    background: white;
+    padding: 13px 14px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.header__link:hover{
+    color: red;
+}
+.main {
+    background: #151515;
+}
+.airpots1__section {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.airpots1 {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.airpots1__text {
+    color: white;
+    width: 538px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+}
+.airpots2 {
+    display: flex;
+    align-items: center;
+}
+.airpots2__section {
+    padding-bottom: 50px;
+}
+.airpots2__text {
+     color: white;
+     font-family: Montserrat;
+     font-weight: 400;
+     font-size: 22px;
+}
+.airpots3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.airpots3__section {
+    padding-bottom: 80px;
+}
+.airpots3__text2 {
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    width: 333px;
+}
+.airpots3__text1 {
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    width: 333px;
+}
+.iphone__section {
+    padding-bottom: 55px;
+}
+.iphone {
+    display: flex;
+    column-gap: 30px;
+}
+.iphone__item {
+    width: 255px;
+    height: 312px;
+    background: white;
+    text-align: center;
+    border-radius: 6px;
+}
+.iphone__title {
+    font-family: Montserrat;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.iphone__img {
+    margin-bottom: 10px;
+}
+.iphone__text {
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+}
+.iphone__link {
+    color: white;
+    background: #151515;
+    padding: 7px 57px;
+}
+.iphone__link:hover{
+    color: red;
+}
+.footer {
+    background: #282828;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__card {
+    display: flex;
+    column-gap: 30px;
+}
